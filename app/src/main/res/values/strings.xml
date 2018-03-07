@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TutEx</string>
+    <string name="title_tut">Tutorial</string>
+    <string name="title_prac">Practical</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_activity_ad">Ad</string>
+    <string name="lectures">Lectures</string>
+    <string name="question_papers">Question Papers</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+
+
+
+</resources>

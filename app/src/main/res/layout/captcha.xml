@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/captcha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/captchaView"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:layout_marginLeft="110dp"
+        android:hint="ENTER CAPTCHA"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginStart="110dp"/>
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/captcha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="PROCEED"/>
+
+    <WebView
+        android:id="@+id/captchaView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginStart="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"/>
+
+</RelativeLayout>

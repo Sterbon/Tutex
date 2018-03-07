@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tut"
+        android:icon="@drawable/tut"
+        android:title="@string/title_tut" />
+
+    <item
+        android:id="@+id/navigation_prac"
+        android:icon="@drawable/prac"
+        android:title="@string/title_prac" />
+
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@drawable/notes"
+        android:title="@string/title_notes" />
+
+
+</menu>

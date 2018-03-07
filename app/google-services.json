@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "382395704062",
+    "firebase_url": "https://tutex-3a0cd.firebaseio.com",
+    "project_id": "tutex-3a0cd",
+    "storage_bucket": "tutex-3a0cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382395704062:android:137c83a4de53b0af",
+        "android_client_info": {
+          "package_name": "com.sterbon.tutex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382395704062-0rhc19dboobu541n5hibb3ml3fv9isbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sterbon.tutex",
+            "certificate_hash": "23ba405e9da0dd69c08bb4ad1531e31544279c88"
+          }
+        },
+        {
+          "client_id": "382395704062-6tqv59r8jhlj2ddoh3lf9pkp2t3c26ng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sterbon.tutex",
+            "certificate_hash": "2475104efe017ac9e4feb2ff8722d597309b0bf7"
+          }
+        },
+        {
+          "client_id": "382395704062-2ojsci36rl6uku48lmro0gktc1som1k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsSyaPoijIcs-d1DQpG3bvP6OfRNUwUp4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382395704062-2ojsci36rl6uku48lmro0gktc1som1k6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
