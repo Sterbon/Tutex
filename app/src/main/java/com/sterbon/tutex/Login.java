@@ -34,7 +34,7 @@ public class Login extends Activity {
         verifyBt.setVisibility(View.INVISIBLE);
 
 
-        phoneLogin.setOnClickListener(new View.OnClickListener() {
+        phoneLogin.setOnClickListener(  new View.OnClickListener() {
         @Override
         public void onClick(View view) {
 

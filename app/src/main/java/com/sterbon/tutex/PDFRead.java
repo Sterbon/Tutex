@@ -67,8 +67,6 @@ public class PDFRead extends Activity {
 
                         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
                         notificationManager.notify(455, mBuilder.build());
-
-
                     }
 
                 }

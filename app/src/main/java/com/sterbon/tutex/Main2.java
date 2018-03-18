@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -75,6 +76,7 @@ public class Main2 extends AppCompatActivity {
             };
 
     private static final int REQUEST_CODE_REQUIRED_PERMISSIONS = 1;
+    private NetworkInfo mCallbacks;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -191,6 +193,7 @@ public class Main2 extends AppCompatActivity {
         }
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater minfater = getMenuInflater();
@@ -209,13 +212,10 @@ public class Main2 extends AppCompatActivity {
         return true;
     }
 
-
-
     private void alert() {
         AlertDialogFrag dialog = new AlertDialogFrag();
         dialog.show(getFragmentManager(), "Error");
     }
-
 
     private boolean connection() {
         ConnectivityManager connManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
